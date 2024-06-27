@@ -9,7 +9,9 @@ python3 qsfirm.py unpack k5_v2.01.31_publish.bin temp/fw.dec.bin temp/fw.ver.bin
 
 python3 mod_enable_swd_port.py    temp/fw.dec.bin
 python3 mod_custom_freq_ranges.py temp/fw.dec.bin
+python3 mod_battery_icon.py       temp/fw.dec.bin
 python3 mod_remove_tx_limits.py   temp/fw.dec.bin
+python3 mod_enable_am_everywhere.py   temp/fw.dec.bin
 python3 mod_universal_version.py  temp/fw.ver.bin
 
 # end of mods
